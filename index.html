@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rock Paper Scissors AI Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <button class="theme-toggle">Toggle Theme</button>
+  <h1>Rock Paper Scissors AI</h1>
+  <button class="start-btn">Start Game</button>
+
+  <div class="game-container">
+    <div class="choices">
+      <div class="choice" data-choice="rock">🪨</div>
+      <div class="choice" data-choice="paper">📄</div>
+      <div class="choice" data-choice="scissors">✂️</div>
+    </div>
+    <div class="status">AI is making its move...</div>
+    <div class="scoreboard">
+      <p>Player: <span id="player-score">0</span> | AI: <span id="ai-score">0</span></p>
+    </div>
+    <div class="history"></div>
+  </div>
+
+  <audio id="rock-sound" src="rock.mp3"></audio>
+  <audio id="paper-sound" src="paper.mp3"></audio>
+  <audio id="scissors-sound" src="scissors.mp3"></audio>
+  <audio id="bg-music" src="bg.mp3" loop autoplay></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
